@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+}
+
+a{
+    background-color: lightblue;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.background {
+    background-color: aliceblue;
+}
+
+#color {
+    color: black;
+}
