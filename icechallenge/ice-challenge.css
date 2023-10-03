@@ -35,7 +35,7 @@ a:hover {
 }
 
 body {
-    background-color: lightgray;
+    background-color: lightblue;
     text-align: center;
 }
 
@@ -54,4 +54,8 @@ p {
 footer {
     background-color: darkgray;
     color: rgb(71, 69, 69);
+}
+
+.quote {
+    color: white;
 }
