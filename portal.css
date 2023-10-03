@@ -1,7 +1,9 @@
 nav {
     display: flex;
 }
-
+img {
+    width: 80%;
+}
 a{
     background-color: lightblue;
     color: rgb(0, 0, 0);
@@ -26,3 +28,4 @@ body {
 #color {
     color: black;
 }
+
