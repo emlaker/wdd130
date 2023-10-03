@@ -1,0 +1,57 @@
+nav {
+    display: flex;
+}
+
+.education-nav {
+    font-size: 3em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+a{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: 1.25em;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.background {
+    background-color: aliceblue;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+#color {
+    color: black;
+}
+
+footer {
+    background-color: darkgray;
+    color: rgb(71, 69, 69);
+}
