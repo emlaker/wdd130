@@ -8,6 +8,11 @@ nav {
     margin: 0 auto;
 }
 
+.left {
+    display: inline-block;
+    text-align: left;
+}
+
 h1 {
     font-size: 5em;
     text-align: center;
@@ -51,11 +56,16 @@ p {
     color: black;
 }
 
-footer {
-    background-color: darkgray;
-    color: rgb(71, 69, 69);
-}
-
 .quote {
     color: white;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.intro-quote {
+    color: white;
+    font-size: small;
+    max-width: 50%;
+    margin: 0 auto;
 }
