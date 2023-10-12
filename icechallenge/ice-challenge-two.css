@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(93, 93, 93);
+}
+
+header {
+    size: 100em;
+}
+
+.title {
+   size: 100em;
+}
+
+.circle {
+    size: 5em;
+    border-radius: 50%;
+    border-color: black;
+}
