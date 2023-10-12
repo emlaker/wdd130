@@ -2,16 +2,17 @@ body {
     background-color: rgb(93, 93, 93);
 }
 
-header {
-    size: 100em;
+.title {
+   width: 100%;
 }
 
-.title {
-   size: 100em;
+div {
+    text-align: center;
 }
 
 .circle {
-    size: 5em;
+    width: 25%;
     border-radius: 50%;
-    border-color: black;
+    margin: 2%;
+    border: 5px solid black;
 }
