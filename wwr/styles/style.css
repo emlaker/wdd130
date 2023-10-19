@@ -16,9 +16,7 @@ nav a:hover {
 
 .home-tittle {
     color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Bebas Neue', sans-serif, arial;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -95,9 +93,7 @@ header {
 
 .msg h2 {
     color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Bebas Neue', sans-serif, arial;
 }
 
 .msg p {
