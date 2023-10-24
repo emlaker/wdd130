@@ -154,3 +154,9 @@ footer .social img {
 .card-img {
     border: 10px solid black;
 }
+
+@media screen and (max-width: 700px) {
+    main {
+        display: block;
+    }
+}
