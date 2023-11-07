@@ -1,0 +1,29 @@
+img {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.read {
+    grid-column: 1/2;
+    align-content: center;
+    text-align: center;
+}
+
+.views {
+    grid-column: 2/3;
+    align-content: center;
+    text-align: center;
+}
+
+.comments {
+    grid-column: 3/4;
+    align-content: center;
+    text-align: center;
+}
