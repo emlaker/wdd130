@@ -247,7 +247,7 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    max-width: 1450px;
+    max-width: 2000 px;
     margin: 0 auto;
 }
 
