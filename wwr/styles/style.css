@@ -233,7 +233,11 @@ footer .social img {
     width: 100%;
 }
 
+
+
 /* This is for the rivers page*/
+
+
 
 .rivers-header {
     margin-bottom: 50px;
@@ -243,7 +247,7 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    max-width: 1450px;
+    max-width: 1450 px;
     margin: 0 auto;
 }
 
