@@ -247,13 +247,14 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    max-width: 1450 px;
+    max-width: 900 px;
     margin: 0 auto;
 }
 
 .rafting-card {
     grid-column: 1/2;
     grid-row: 1/2;
+    padding: 30px;
 }
 
 .rafting-msg {
@@ -265,6 +266,7 @@ footer .social img {
 .crew-card {
     grid-column: 3/4;
     grid-row: 2/3;
+    padding: 30px;
 }
 
 .crew-msg {
@@ -276,6 +278,7 @@ footer .social img {
 .snake-card {
     grid-column: 1/2;
     grid-row: 3/4;
+    padding: 30px;
 }
 
 .snake-msg {
