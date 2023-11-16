@@ -20,3 +20,33 @@
   --nav-hover-background-color: #396E94;
 }
 
+footer {
+    background-color: #3e92cc;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
