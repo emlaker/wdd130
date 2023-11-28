@@ -49,6 +49,7 @@ nav a {
     text-transform: none;
     text-decoration: none;
     padding: 35px; 
+    font-size: large;
 }
 
 nav a:hover {
@@ -113,12 +114,14 @@ nav a:hover {
     background-color: #13293d;
     width: 200px;
     padding: 20px;
+    text-align: center;
 }
 
 .home-para {
     margin: 0 auto;
     padding-right: 200px;
     padding-left: 200px;
+    padding-top: 20px;
 }
 
 .double {
@@ -133,7 +136,7 @@ footer {
     background-color: #3e92cc;
     color: white;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -142,9 +145,11 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 footer a:hover {
+    background-color: #ABA9C3;
     color: white;
 }
 
@@ -154,6 +159,15 @@ footer p {
 
 footer p a:hover {
     text-decoration: none;
+    background-color: #ABA9C3;
+    color: white;
+}
+
+.siteplan-footer {
+    color: white;
+    text-transform: none;
+    padding: 35px; 
+    font-size: large;
 }
 
 footer .social img {
