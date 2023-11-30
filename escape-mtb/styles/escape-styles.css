@@ -13,7 +13,7 @@
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #2a628f; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #3e92cc  ;
+  --paragraph-background-color: #3e92cc;
   --nav-link-color: white;
   --nav-background-color: #13293d;
   --nav-hover-link-color: white;
@@ -184,8 +184,10 @@ nav a:hover {
 }
 
 
-/* Rental Slideshow */
+/* Rental Page CSS */
 
+
+/* Rental Slideshow */
 
 * {box-sizing:border-box}
 
@@ -210,6 +212,7 @@ nav a:hover {
   margin-top: -22px;
   padding: 16px;
   color: white;
+  background-color: rgba(255,255,255,0.4);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -230,12 +233,16 @@ nav a:hover {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: black;
+  background-color: rgba(255,255,255,0.4);
+  font-size: 45px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  width: 50%;
+  margin: auto;
+  right: 0;
+  left: 0;
   text-align: center;
 }
 
@@ -254,14 +261,23 @@ nav a:hover {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #3e92cc;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
+.dots {
+    position: absolute;
+    bottom: 90px;
+    margin: auto;
+    width: 100px;
+    right: 0;
+    left: 0;
+}
+
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #13293d;
 }
 
 /* Fading animation */
@@ -273,6 +289,24 @@ nav a:hover {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+/* The rest of the rental page CSS */
+
+.message-image {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rental-msg {
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-bottom: 25px;
+}
+
+.mtb-me {
+    width: 50%;
 }
 
 
