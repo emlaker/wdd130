@@ -90,6 +90,11 @@ body {
     padding: 0 ;
 }
 
+.content {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
 /* hero image */ 
 
 
@@ -315,7 +320,7 @@ body {
 }
 
 .mtb-me {
-    width: 50%;
+    width: 66%;
 }
 
 
