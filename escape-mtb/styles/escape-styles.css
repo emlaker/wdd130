@@ -50,7 +50,7 @@ nav a {
     text-transform: none;
     text-decoration: none;
     padding: 35px; 
-    font-size: large;
+    font-size: 35px;
 }
 
 nav a:hover {
@@ -194,6 +194,10 @@ body {
     width: 100px;
    display: block;
    margin: 0 auto; 
+}
+
+p {
+    font-size: large;
 }
 
 
